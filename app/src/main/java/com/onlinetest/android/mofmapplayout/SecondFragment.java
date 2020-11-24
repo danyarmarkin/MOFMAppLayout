@@ -34,7 +34,7 @@ public class SecondFragment extends Fragment {
         view.findViewById(R.id.button_finish).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), SelectTestActivity.class);
+                Intent intent = new Intent(getActivity(), SelectSubjectActivity.class);
                 startActivity(intent);
                 getActivity().finish();
             }

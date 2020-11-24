@@ -26,6 +26,13 @@
         </activity>
 
         <activity
+            android:name=".SelectSubjectActivity"
+            android:label="Select Subject"
+            android:theme="@style/Theme.MOFMAppLayout.NoActionBar">
+
+        </activity>
+
+        <activity
             android:name=".SelectTestActivity"
             android:label="Select Test"
             android:theme="@style/Theme.MOFMAppLayout.NoActionBar">>

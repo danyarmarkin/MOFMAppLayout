@@ -6,6 +6,7 @@ android {
     compileSdkVersion 29
 
     defaultConfig {
+        vectorDrawables.useSupportLibrary = true
         applicationId "com.onlinetest.android.mofmapplayout"
         minSdkVersion 16
         targetSdkVersion 29

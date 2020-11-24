@@ -48,6 +48,28 @@
                     android:paddingLeft="24dp"
                     android:paddingRight="24dp">
 
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/ic_baseline_search_24"
+                            android:contentDescription="TODO" />
+
+                        <EditText
+                            android:id="@+id/editTextTextPersonName2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:hint="Поиск"
+                            android:inputType="textPersonName" />
+                    </LinearLayout>
+
                     <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -79,33 +101,27 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="*" />
+                                android:text="Предмет" />
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="*" />
+                                android:text="Тип" />
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="*" />
+                                android:text="Дата создания" />
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="*" />
+                                android:text="Имя создателя" />
 
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="horizontal">
-
-                                <Button
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_weight="1"
-                                    android:text="Button" />
 
                                 <Space
                                     android:layout_width="wrap_content"
@@ -116,7 +132,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="Button" />
+                                    android:text="Приступить" />
                             </LinearLayout>
                         </LinearLayout>
 
@@ -179,12 +195,6 @@
                                 android:layout_height="match_parent"
                                 android:orientation="horizontal">
 
-                                <Button
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_weight="1"
-                                    android:text="Button" />
-
                                 <Space
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
@@ -194,7 +204,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="Button" />
+                                    android:text="Приступить" />
                             </LinearLayout>
                         </LinearLayout>
 
@@ -257,12 +267,6 @@
                                 android:layout_height="match_parent"
                                 android:orientation="horizontal">
 
-                                <Button
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_weight="1"
-                                    android:text="Button" />
-
                                 <Space
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
@@ -272,7 +276,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="Button" />
+                                    android:text="Приступить" />
                             </LinearLayout>
                         </LinearLayout>
 
@@ -335,12 +339,6 @@
                                 android:layout_height="match_parent"
                                 android:orientation="horizontal">
 
-                                <Button
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_weight="1"
-                                    android:text="Button" />
-
                                 <Space
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
@@ -350,7 +348,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="Button" />
+                                    android:text="Приступить" />
                             </LinearLayout>
                         </LinearLayout>
 
@@ -413,12 +411,6 @@
                                 android:layout_height="match_parent"
                                 android:orientation="horizontal">
 
-                                <Button
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_weight="1"
-                                    android:text="Button" />
-
                                 <Space
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
@@ -428,7 +420,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="Button" />
+                                    android:text="Приступить" />
                             </LinearLayout>
                         </LinearLayout>
 
